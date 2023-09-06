@@ -47,6 +47,7 @@ const showRecipe = async function () {
     console.log(res, data);
     let { recipe } = data.data;
     // let recipe = data.data.recipe; destructured
+
     recipe = {
       id: recipe.id,
       title: recipe.title,
